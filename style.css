@@ -1,0 +1,281 @@
+* {
+    background-color: aqua;
+    box-sizing: border-box;
+    background: none;
+}
+body {
+    background-image: url('makeup5.jpg');
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+.header-one {
+    background: none;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-bottom: 22px ;
+    color: gold;
+    font-size: 65px;
+    font-family: lucida;
+}
+.header-two {
+    color: aliceblue;
+    background: none;
+    display: inline-block;
+    margin-top: 18px;
+    margin-left: 520px;
+    margin-right: 60px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+.header-two:hover {
+    text-decoration: underline;
+    color: aliceblue;
+    transform: scale(1.1);
+}
+.header-three {
+    color: aliceblue;
+    background: none;
+    display: inline-block;
+    margin-top: 18px;
+    margin-right: 60px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+.header-three:hover {
+    color: aliceblue;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+.header-four {
+    color: aliceblue;
+    background: none;
+    display: inline-block;
+    margin-top: 18px;
+    margin-right: 60px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+.header-four:hover {
+    color: aliceblue;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+.header-five {
+    color: aliceblue;
+    background: none;
+    display: inline-block;
+    margin-top: 18px;
+    margin-right: 60px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+.header-five:hover {
+    
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+.hr1 {
+    background: none;
+    margin-top: 10px;
+}
+.home1 {
+    color: #7b00a4;
+    text-align: center;
+    font-size: 37px;
+    text-decoration: underline;
+}
+.welcome {
+    color: #E6E6FA;
+    text-align: center;
+    font-size: 28px;
+    text-decoration: underline;
+}
+.tagline {
+    color: #E6E6FA;
+    text-align: center;
+    font-style: italic;
+    font-size: 19px;
+}
+.paragraph-one {
+    margin-top: 30px;
+    font-size: 17px;
+    margin-left: 10px;
+    font-family: tahoma;
+    color: #204646;
+}
+.image {
+    display: flex;
+    width: 280px;
+    height: 280px;
+    margin-top: 45px;
+    margin-left: 100px;
+    gap: 60px;
+}
+.image-one  {
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.image-one:hover {
+    transform: scale(1.1);
+}
+.image-two  {
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.image-two:hover {
+    transform: scale(1.1);
+}
+.image-three {
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.image-three:hover {
+    transform: scale(1.1);
+}
+.image-four {
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.image-four:hover {
+    transform: scale(1.1);
+}
+.home-products {
+    margin-top: 30px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+.list-items1 {
+    margin-left: 20px;
+    font-size: 17px;
+    font-family: tahoma;
+}
+.paragraph-two {
+    margin-left: 55px;
+    font-size: 16px;
+    font-family: tahoma;
+}
+.list-items2 {
+    margin-left: 20px;
+    font-size: 17px;
+    font-family: tahoma;
+}
+.paragraph-three {
+    margin-left: 55px;
+    font-size: 16px;
+    font-family: tahoma;
+}
+.list-items3 {
+    margin-left: 20px;
+    font-size: 17px;
+    font-family: tahoma;
+}
+.paragraph-four {
+    margin-left: 55px;
+    font-size: 16px;
+    font-family: tahoma;
+}
+.current-promotions {
+    margin-top: 30px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+.list-items4 {
+    margin-left: 20px;
+    font-size: 17px;
+    font-family: tahoma;
+    margin-bottom: 10px;
+}
+.list-items5 {
+    margin-left: 20px;
+    font-size: 17px;
+    font-family: tahoma;
+    margin-bottom: 10px;
+}
+.products1 {
+    color: #7b00a4;
+    text-align: center;
+    font-size: 34px;
+    text-decoration: underline;
+}
+.paragraph-five {
+    margin-top: 30px;
+    font-size: 17px;
+    margin-left: 10px;
+    font-family: tahoma;
+}
+.products-container {
+    margin-left: 27px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: inline-block;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.box1 {
+    width: 260px;
+    border: 2px solid white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: pink;
+    cursor: pointer;
+    transition: transform 0.5s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.box1:hover {
+    transform: scale(1.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: pink;
+}
+.image-container {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.image-container img {
+    width: 100%;
+    height: 200px;
+}
+.details-container {
+    padding: 5px;
+    background-color: pink;
+}
+.details {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.details1 {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 6px;
+}
+.list-items10 {
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: tahoma;
+    font-weight: bold;
+}
+.list-items11 {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-family: tahoma;
+}
